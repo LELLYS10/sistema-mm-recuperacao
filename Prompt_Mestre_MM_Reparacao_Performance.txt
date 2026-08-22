@@ -1,0 +1,183 @@
+Você é uma equipe completa formada por: Product Manager, UX/UI Designer, Arquiteto de Software, Desenvolvedor Full Stack Sênior, Especialista em Supabase/PostgreSQL, Especialista em Automação e QA.
+
+Quero que você projete e implemente um sistema web responsivo chamado “M.M Reparação e Performance”, voltado para uma oficina especializada em diagnóstico eletrônico de linha diesel, injeção eletrônica, scanner automotivo, reparo de bombas e bicos e reprogramação.
+
+OBJETIVO
+Criar um sistema simples, prático, bonito e profissional para gestão de oficina mecânica, priorizando velocidade de uso e organização do dia a dia. O sistema deve nascer enxuto, mas preparado para crescer.
+
+REFERÊNCIAS FUNCIONAIS EXTRAÍDAS DOS VÍDEOS
+1. Aproveitar a organização administrativa dos ERPs: orçamento, OS, caixa, financeiro e relatórios.
+2. Aproveitar a lógica operacional de oficina: clientes, veículos, peças, serviços, estoque, fornecedores, compras e importação por planilha.
+3. Aproveitar a simplicidade da criação rápida de OS: fluxo leve, cadastro rápido, consulta rápida e finalização fácil.
+4. Aproveitar o controle de produtividade: mecânico responsável, cronômetro do serviço, tempo gasto e histórico do veículo.
+
+IDENTIDADE VISUAL E MARCA
+- Nome da oficina: M.M Reparação e Performance
+- Especialidade: diagnóstico eletrônico (linha diesel)
+- Serviços principais: injeção eletrônica, scanner automotivo, reparo de bombas e bicos, reprogramação
+- Tema visual escuro, elegante e moderno
+- Cores base: preto/chumbo, verde da logo, branco e cinza metálico
+- Usar a logo da empresa como marca d’água no fundo do sistema, com opacidade baixa, sem prejudicar a leitura
+- A marca d’água deve ser discreta e elegante, aparecendo no login e nas telas internas do sistema
+
+MENU DA VERSÃO 1
+1. Painel
+2. Clientes
+3. Veículos
+4. Serviços
+5. Peças / Produtos
+6. Fornecedores
+7. Orçamentos
+8. Ordens de Serviço
+9. Caixa
+10. Histórico / Relatórios básicos
+
+FUNCIONALIDADES OBRIGATÓRIAS
+1. Painel inicial com cards:
+- OS abertas
+- Em manutenção
+- Aguardando peça
+- Prontas para entrega
+- Faturamento do dia
+- A receber
+- A pagar
+
+2. Cadastro de clientes:
+- nome
+- CPF/CNPJ
+- telefone
+- WhatsApp
+- endereço
+- observações
+
+3. Cadastro de veículos:
+- cliente vinculado
+- placa
+- marca
+- modelo
+- ano
+- cor
+- combustível
+- quilometragem
+- chassi
+- observações
+
+4. Cadastro de serviços:
+- nome do serviço
+- valor padrão
+- tempo médio estimado
+
+5. Cadastro de peças/produtos:
+- nome
+- código
+- fornecedor
+- custo
+- preço de venda
+- margem
+- estoque atual
+- estoque mínimo
+
+6. Cadastro de fornecedores:
+- nome
+- telefone
+- WhatsApp
+- contato
+- observações
+
+7. Orçamentos:
+- criar orçamento com peças e serviços
+- calcular total automaticamente
+- permitir aprovação
+- permitir envio por WhatsApp
+- permitir conversão do orçamento em Ordem de Serviço
+
+8. Ordem de Serviço:
+- número automático da OS
+- cliente e veículo vinculados
+- problema relatado pelo cliente
+- diagnóstico
+- peças usadas
+- serviços executados
+- mecânico responsável
+- status da OS
+- cronômetro do serviço com iniciar, pausar, continuar e finalizar
+- checklist de entrada
+- fotos do veículo
+- observações internas
+- data/hora de entrada e saída
+- cálculo automático de custo, venda e lucro bruto
+
+9. Status da OS:
+- Aguardando aprovação
+- Aprovado
+- Aguardando peça
+- Em manutenção
+- Pronto
+- Entregue
+
+10. Caixa:
+- entradas
+- saídas
+- saldo do dia
+
+11. Histórico do veículo:
+- listar todas as ordens de serviço anteriores
+- mostrar KM em cada atendimento
+- mostrar serviços executados
+- mostrar peças usadas
+- mostrar observações
+- mostrar fotos anteriores
+
+IDEIAS DIFERENCIADAS
+- timeline do veículo
+- alerta de revisão por KM ou data
+- alerta de estoque baixo
+- produtividade por mecânico
+- lucro por OS
+- modelos rápidos de serviço e orçamento
+- importação de clientes, serviços e produtos por planilha Google Sheets ou Excel
+
+REGRAS IMPORTANTES
+- O sistema deve ser simples e objetivo
+- A navegação deve ser fácil para quem não é técnico
+- O design deve ser moderno e bonito, mas sem exageros
+- Priorizar performance e clareza
+- Usar textos e labels em português do Brasil
+- Estruturar o projeto para que novas funcionalidades possam ser adicionadas depois
+
+TECNOLOGIA SUGERIDA
+Se precisar definir a stack, use:
+- Frontend: Next.js ou React
+- UI: Tailwind CSS + componentes reutilizáveis
+- Backend e banco: Supabase/PostgreSQL
+- Autenticação: e-mail e senha com perfis de acesso
+- Armazenamento de fotos: Supabase Storage
+- Futuras automações: n8n
+
+PERFIS DE ACESSO
+- Admin
+- Atendente
+- Mecânico
+
+ENTREGÁVEIS QUE VOCÊ DEVE ME FORNECER
+1. Arquitetura funcional do sistema
+2. Mapa de telas
+3. Modelagem do banco de dados
+4. Regras de negócio
+5. Fluxo principal do usuário
+6. Wireframe textual das principais telas
+7. Plano de implementação por etapas
+8. Código inicial da versão 1
+9. Instruções para rodar o projeto
+10. Sugestões de melhorias para a versão 2
+
+MODO DE TRABALHO
+Trabalhe por etapas curtas e organizadas.
+Primeiro entregue:
+- visão geral do projeto
+- mapa de módulos
+- modelagem de banco
+- fluxo da ordem de serviço
+Depois, somente após confirmação, avance para código e interface.
+
+Crie algo profissional, limpo, pensado para oficina real, com foco em agilidade, controle e crescimento.
